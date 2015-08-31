@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 
 <html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
 
 <style>
 
@@ -19,6 +25,7 @@ h1 {
 	background-size: 120px 80px;
 	background-repeat: no-repeat;
 	background-position: 95% 80%;
+
 }
 
 ul#menu {
@@ -45,15 +52,22 @@ ul#menu li a:hover {
 	background-color: #AC94A0;
 }
 
-#welcome {
-	border-radius: 25px;
+.welcome {
+	border-radius: 50px;
 	background-color: white;
-	margin: 20px;
-	height: 300px;
+	margin: 30px;
+	height: 400px;
 	color: blue;
-	font-family: "Serif";
+	font-family: Verdana, Geneva, sans-serif;
 	font-size:  15px;
+	padding: 10px;
 }
+
+.welcome img {
+	margin-right:15px;
+	float:left;
+}
+
 
 </style>
 
@@ -70,22 +84,23 @@ ul#menu li a:hover {
 
 </ul>
 
-<div id="welcome">
 
-<h2><br><center>Welcome</center></br></h2>
-
-<p>Hi, my name is Yu Yuan. I'm a current senior at the University of Florida pursuing a Digital Arts and Sciences degree. Some may not be familiar with this degree, but it's basically a Computer Science degree with a with some computer graphics courses integrated in it. Alongside the typical programming classes, we learn 3D animations, modeling, game making, etc. </p>
+<div class="welcome"><p>
+<div align ="center" style= "margin: 10px; padding: 50px;"><img src="profile pic.jpg" class="img-circle" width="200" height="190">
+</div>
+<center>
+<br><font size="6">Hi!</font></br> My name is Yu Yuan. I'm a current senior at the University of Florida pursuing a Digital Arts and Sciences degree. Some may not be familiar with this degree, but it's basically a Computer Science degree with a with some computer graphics courses integrated in it. Alongside the typical programming classes, we learn 3D animations, modeling, game making, etc. </p> </center>
 </div>
 
 <center>
- <p>My Links </p>
+
+<p> My Links </p>
 <a href="https://github.com/yy2">
-  <img src="github.png" style="width:42px;height:42px;border:10;">
+  <img src="http://uxrepo.com/static/icon-sets/typicons/svg/github-circled.svg" style="width:50px;height:50px;border:0;">
 </a>
 <a href="https://www.linkedin.com/pub/yu-yuan/a8/313/835">
-  <img src="LinkedIn.png" style="width:42px;height:42px;border:10;">
+  <img src="LinkedIn.png" style="width:50px;height:42px;border:0;">
 </a>
-
 </center>
 
 </body>
