@@ -1,131 +1,59 @@
 <!DOCTYPE html>
-<!-- Basic html tags -->
 <html>
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+  <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Syncopate" /> -->
 </head>
-<!-- This bootstrap code is used to make circular shaped pictures -->
-<style>
 
-body { 
-	background-color: #E1E1FF;
-}
-/* Background color */
-h1 {
-	color: gray;
-	margin: 20px;
-	padding: 20px;
-	font-family: "Serif";
-	font-size: 40px;
-	text-align: center;
-	background-image: url("Gator.png");
-	background-size: 120px 80px;
-	background-repeat: no-repeat;
-	background-position: 95% 80%;
-}
-/* background attributes such as font, font size, the position of the gator image, the text is centered */
-ul#menu {
-	padding: 0;
-}
-/* list for the menu buttons */
-ul#menu li {
-	display:inline;
-}
-ul#menu li a {
-	background-color: #F5D4E4;
-	border: 1px solid #993D3D;
-	margin: 10px;
-	color: gray;
-	padding: 10px 20px;
-	text-decoration: none;
-	font-size: 20px;
-	border-radius: 10px 10px 10px 10px;
-}
-
-/* The menu buttons' attributes: color, border or no border, size of font, border-radius to make the corners rounded etc */
-
-ul#menu li a:hover {
-	background-color: #AC94A0;
-}
-/* The color will change for the button when the cursor is over it */
-
-.welcome {
-	border-radius: 50px;
-	background-color: white;
-	margin: 30px;
-	height: 400px;
-	color: blue;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size:  15px;
-	padding: 10px;
-}
-
-/* class section called welcome and its attributes; padding is used to make give some space away from the edges of the site */
-
-.welcome img {
-	margin-right:15px;
-	float:left;
-}
-/* This part helps format the image, and make it position left of the text */
-.intern {
-	border-radius: 50px;
-	background-color: white;
-	margin: 30px;
-	height: 400px;
-	color: blue;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size:  15px;
-	padding: 10px;
-}
-
-/* a section for the bubble where I'll talk about my summer internship; add attributes such as color, font, etc */
-
-.intern img{
-	margin-right:15px;
-	float:right;
-}
-/* this time the image will be on the right, so my image layouts don't look too plain */
-</style>
-<!-- end of CSS -->
 <body>
+   <header id="header">
+     <div class="header_container_name">
+       <h1>YU YUAN</h1>
+     </div>
 
-<h1> Yu Yuan </h1>
-<!-- Got to have my name on the page somewhere -->
-<ul id="menu">
-	<center>
-	<li><a href ="Resume2.pdf">Resume</a> </li>
-	<li><a href="http://yy2.github.io/portfolio.html">Portfolio</a> </li>
-	</center>
-	<!--li> next link </li> -->
-<!-- My menu buttons and links are provided for each button -->
-</ul>
+     <div class="header_container_role">
+     <h2>Software Developer</h2>
+     </div>
 
-<div class="welcome"><p>
-<div align ="center" style= "margin: 10px; padding: 50px;"><img src="profile pic.jpg" class="img-circle" width="200" height="190">
-</div>
-<center>
-<br><font size="6">Hi!</font></br> My name is Yu Yuan. I'm a current senior at the University of Florida pursuing a Digital Arts and Sciences degree. Some may not be familiar with this degree, but it's basically a Computer Science degree with a with some computer graphics courses integrated in it. Alongside the typical programming classes, we learn 3D animations, modeling, game making, etc. </p> </center>
-</div>
-<!-- my div class that holds my introduction with what major I'm in and what college I go to -->
-<div class="intern">
-<p> <div align ="center" style= "margin: 10px; padding: 50px;"><img src="MetLife.JPG" width="250" height="190"></div> 
-<br> <center>For my summer of 2015, I got the opportunity to intern at MetLife, a global life insurance company. I met a lot of people and got acquainted with the business environment. I worked under Rick Pasko, a developer, as well as Joan Poe, a project lead. I learned the basics of a COBOL program and familiarized myself with the mainframe environment. Alongside mainframe, I learned SQL and helped create a compilation of data that is stored in a database to facilitate the migration of an old system called Laser Print to DocuMaker. I enjoyed my time at MetLife, and I hope I can use the knowledge gained over the summer to my college work this year!</center></br>
-</div>
-<!-- my div class that holds the information on what I did for my summer internship at MetLife -->
-<center>
+     <div class="header_container_navi">
+       <a href="">ABOUT</a><br>
+       <a href="">SKILLS</a><br>
+       <a href="">ART</a><br>
+       <a href="">CONTACT</a>
+     </div>
+   </header>
 
-<p> My Links </p>
-<a href="https://github.com/yy2">
-  <img src="http://uxrepo.com/static/icon-sets/typicons/svg/github-circled.svg" style="width:50px;height:50px;border:0;">
-</a>
-<a href="https://www.linkedin.com/pub/yu-yuan/a8/313/835">
-  <img src="LinkedIn.png" style="width:50px;height:42px;border:0;">
-</a>
-</center>
+<section id="section_about">
+  <h2 class="hello">Hello.</h2>
+    <p class="about">I graduated from <span id="school">University of Florida</span>
+       with a B.S. in <span id="degree">Digital Arts and Sciences</span>. <br>
+       I took a summer internship at <span id="intern">MetLife</span>. <br>
+       Currently, I am a software developer for <span id="current-job">JP Morgan and Chase</span>. <br><br>
+      My interests and hobbies include
+      drawing, painting, gaming, visual design, mobile development, and the obvious, programming.
+    </p>
+</section>
 
-<!-- picture links to my GitHub and my LinkedIn profile -->
+<!--
+<section id="section_works">
+  <h2 class="section"> --------------------------------------   Works   --------------------------------------</h2>
+</section> -->
+
+
+<section id="section_contact">
+  <div class="email_form">
+    <button class="email" >Email me!</button>
+    </div>
+    <div>
+    <a href="https://github.com/yy2">
+      <img src="./images/github.png" style="width:50px;height:50px;border:0;">
+    </a>
+    <a href="https://www.linkedin.com/pub/yu-yuan/a8/313/835">
+      <img src="./images/LinkedIn.png" style="width:50px;height:42px;border:0;">
+    </a>
+  </div>
+</section>
+
 </body>
 </html>
