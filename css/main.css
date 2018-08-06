@@ -61,12 +61,20 @@ body {
   letter-spacing: 2px;
 }
 
+a:hover{
+  position: relative;
+  left: 5px;
+}
+
 #section_about {
+  clear: left;
   margin-left: 5%;
   color: #2c3647;
+  margin-top:40px;
 }
 
 .hello{
+  float: none;
   font-family: 'Sofia', sans-serif;
 }
 
@@ -92,6 +100,21 @@ button {
 button:hover {
   position: relative;
   top: -2px;
-  background-color: #afbbce;
-  color: #6a717c;
+  background-color: #536889;
+  color: #7e94b7;
+}
+
+#section_song {
+  font-family: 'Scope One', sans-serif;
+  font-size: 100%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.grumpy_cat {
+  max-width: 10%;
+  height: auto;
+  display: block;
+  margin-left: 35%;
+  float: left;
 }

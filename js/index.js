@@ -1,15 +1,26 @@
-'use strict';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+$(document).ready(function() {
 
-  render() {
-    return(
-    <h1>Hello! Welcome!</h1>
-  );
-  }
-}
+   //setInterval(function(){ alert("Hello"); }, 3000);
+  var text = '99 little bugs in the code.<99 little bugs in the code.<Take one down, patch it around,<127 little bugs in the code...    <';
 
-ReactDOM.render('App', domument.querySelector("#app"));
+  var chars = text.split('');
+  var container = document.getElementById("song");
+
+  var i = 0;
+  setInterval(function () {
+      if (i < chars.length) {
+        if(chars[i] == "<") {
+          container.innerHTML += "<br/>"
+          chars[i++];
+        }
+        else {
+          container.innerHTML += chars[i++];
+        }
+      } else {
+              i = 0;
+              container.innerHTML = "";
+      }
+  }, 130);
+
+});
