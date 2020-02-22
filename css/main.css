@@ -109,7 +109,9 @@ button:hover {
   font-size: 100%;
   margin-top: 5%;
   margin-bottom: 10%;
+  height: 60px;
 }
+
 
 .grumpy_cat {
   max-width: 10%;
