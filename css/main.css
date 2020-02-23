@@ -51,13 +51,15 @@ body {
   margin-top: 19%;
   text-align: left;
   padding: 0.2em .7em;
+  font-family: 'Nova Mono', sans-serif;
+  color: white;
+  font-size: 20px;
 }
 
 .header_container_navi a {
   font-family: 'Nova Mono', sans-serif;
   text-decoration: none;
   color: white;
-  display: block;
   letter-spacing: 2px;
 }
 
