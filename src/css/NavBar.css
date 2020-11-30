@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Nav {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 5px 20px;
+    border-bottom: 1px solid #d5e0f2;
+}
+.name-link a{
+    text-decoration: none;
+}
+
+.first-name {
+    color: #576d91;
+}
+
+.last-name {
+    color: #54beff;
+}
+
+.nav-list {
+    list-style: none;
+    /* background-color: #c0d1c5; */
+}
+
+.nav-list li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-list li a {
+    color: #576d91; /*#112e2d; */
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-list li a:hover {
+    color: red;
+    /* padding: 20px 30px; */
+    border-bottom: 3px solid red;
+}

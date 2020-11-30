@@ -1,0 +1,77 @@
+body {
+	background-color: #E1E1FF;
+}
+/* Background color */
+h1 {
+	color: gray;
+	margin: 20px;
+	padding: 20px;
+	font-family: "Serif";
+	font-size: 40px;
+	text-align: center;
+	background-image: url("Gator.png");
+	background-size: 120px 80px;
+	background-repeat: no-repeat;
+	background-position: 95% 80%;
+}
+/* background attributes such as font, font size, the position of the gator image, the text is centered */
+ul#menu {
+	padding: 0;
+}
+/* list for the menu buttons */
+ul#menu li {
+	display:inline;
+}
+ul#menu li a {
+	background-color: #F5D4E4;
+	border: 1px solid #993D3D;
+	margin: 10px;
+	color: gray;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+/* The menu buttons' attributes: color, border or no border, size of font, border-radius to make the corners rounded etc */
+
+ul#menu li a:hover {
+	background-color: #AC94A0;
+}
+/* The color will change for the button when the cursor is over it */
+
+.welcome {
+	border-radius: 50px;
+	background-color: white;
+	margin: 30px;
+	height: 400px;
+	color: blue;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:  15px;
+	padding: 10px;
+}
+
+/* class section called welcome and its attributes; padding is used to make give some space away from the edges of the site */
+
+.welcome img {
+	margin-right:15px;
+	float:left;
+}
+/* This part helps format the image, and make it position left of the text */
+.intern {
+	border-radius: 50px;
+	background-color: white;
+	margin: 30px;
+	height: 400px;
+	color: blue;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:  15px;
+	padding: 10px;
+}
+
+/* a section for the bubble where I'll talk about my summer internship; add attributes such as color, font, etc */
+
+.intern img{
+	margin-right:15px;
+	float:right;
+}
